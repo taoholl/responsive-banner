@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  background-color: #495562;
+  color: #fff;
+}
+
+.btn {
+  background-color: limegreen;
+  border-color: limegreen;
+}
+
+.btn-ghost {
+  background-color: transparent;
+}
